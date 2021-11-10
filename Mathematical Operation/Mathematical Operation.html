@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+    <h1>Simple Calculator</h1>
+    <div class="equation">
+
+        <input type="text" id="inputInteger" onkeypress>
+        <input type="text" id="output" readonly>
+
+        <button id="add" value="+" onclick="dis('+')" class="style">+</button>
+        <button id="subtract" value="-" onclick="dis('-')" class="style">-</button>
+        <button id="multiply" value="*" onclick="dis('*')" class="style">*</button>
+        <button id="divide" value="/" onclick="dis('/')" class="style">/</button>
+        <button id="equal" value="=" onclick="equal()" class="style">=</button>
+
+    </div>
+</body>
+<script src="main.js "></script>
+
+</html>
